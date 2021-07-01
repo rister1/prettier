@@ -1,0 +1,7 @@
+function multipleEven( array ) {
+  var result = 1;
+  array.forEach( function(el, n) {
+    if (n % 2) result *= el
+  } );
+  return result
+}
